@@ -23,8 +23,3 @@ function App() {
 }
 
 export default App;
-
-
-function Test() {
-
-}
