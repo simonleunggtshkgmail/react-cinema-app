@@ -111,7 +111,7 @@ workflows:
                 - staging
                 - master
       - deploy-to-aws-cloudfront:
-          requiries:
+          requires:
             - deploy-to-aws-s3
           filters: 
             branches:  
